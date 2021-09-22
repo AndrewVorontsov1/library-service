@@ -1,6 +1,6 @@
 syntax = "proto3";
 message BookEvent {
-  uint32 id = 1;
+  string id = 1;
   string name = 2;
-  int32 year = 3;
+  string year = 3;
 }
